@@ -19,6 +19,45 @@
 </head>
 <body>
     <header>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-[36px] font-bold">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-red-600">Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </ul>
+          </div>
+          <div class="navbar-end gap-4">
+            <button class="btn btn-square">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+            <a class="btn">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
       <!-- baner section start -->
       <section class="container my-8 m-auto">
         <div class="carousel w-full ">
@@ -28,9 +67,9 @@
               <a href="#slide3" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
-            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] bottom-8 lg:right-8 items-center text-center py-12 gap-y-8">
+            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] -bottom-[200px] lg:bottom-8 lg:right-8 items-center text-center py-12 gap-y-8">
               <h1 class="text-[#FFFFFF] text-[24px]">Meet all the heroes from the field</h1>
-              <p class="text-[#FFFFFF99] text-[16px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <p class="text-[#FFFFFF99] text-[16px]">Belgium and win the hockey World Cup on Sunday in a dramatic see-saw final ending in a sudden death shootout</p>
             </div>
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
@@ -39,9 +78,9 @@
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
-            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] bottom-8 lg:right-8 items-center text-center py-12 gap-y-8">
+            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] lg:bottom-8 -bottom-[200px] lg:right-8 items-center text-center py-12 gap-y-8">
               <h1 class="text-[#FFFFFF] text-[24px]">Meet all the heroes from the field</h1>
-              <p class="text-[#FFFFFF99] text-[16px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <p class="text-[#FFFFFF99] text-[16px]">Belgium and win the hockey World Cup on Sunday in a dramatic see-saw final ending in a sudden death shootout</p>
             </div>
           </div> 
           <div id="slide3" class="carousel-item relative w-full">
@@ -50,9 +89,9 @@
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
-            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] bottom-8 lg:right-8 items-center text-center py-12 gap-y-8">
+            <div class="absolute bg-black lg:w-[566px] h-[165px] rounded-[2.375rem] -bottom-[200px] lg:bottom-8 lg:right-8 items-center text-center py-12 gap-y-8">
               <h1 class="text-[#FFFFFF] text-[24px]">Meet all the heroes from the field</h1>
-              <p class="text-[#FFFFFF99] text-[16px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <p class="text-[#FFFFFF99] text-[16px]">Belgium and win the hockey World Cup on Sunday in a dramatic see-saw final ending in a sudden death shootout</p>
             </div>
           </div> 
       </div>
@@ -64,7 +103,7 @@
       <section>
         <div class="items-center text-center justify-center p-8">
           <h1 class="text-[36px] font-bold">Professional Hockeys Club</h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <p>The National Hockey League is a professional ice hockey league in North America comprising</p>
         </div>
         <hr>
         <div class="justify-center items-center text-center lg:flex m-20">
@@ -96,15 +135,14 @@
           <h1 class="text-[36px] font-bold">
             Program Sections
           </h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <p>Hockey Heroes is an eight week hockey programme aimed at beginners that not only focuses</p>
         </div>
         <section class="grid lg:grid-cols-2 grid-cols-1 gap-6 px-7 mt-5">
           <div class="card bg-base-100 shadow-xl image-full">
             <figure><img class="w-full" src="Images/2.png" alt="Shoes"/></figure>
             <div class="card-body py-32">
               <h2 class="card-title text-[28px] font-bold">Junior Program</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <p> Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part </p>
               <div class="card-actions">
                 <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
               </div>
@@ -113,9 +151,8 @@
           <div class="card bg-base-100 shadow-xl image-full">
             <figure><img class="w-full" src="Images/3.png" alt="Shoes" /></figure>
             <div class="card-body py-32">
-              <h2 class="card-title text-[28px] font-bold">Junior Program</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <h2 class="card-title text-[28px] font-bold">Teenager Program</h2>
+              <p>Hockey 4 Youth is a charitable organization that provides new Canadian youth with an opportunity to play ice hockey</p>
               <div class="card-actions">
                 <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
               </div>
@@ -125,9 +162,8 @@
         <div class="card h-[320px] lg:h-[450px] image-full mt-6 px-7">
           <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
           <div class="card-body py-32">
-            <h2 class="card-title text-[28px] font-bold">Junior Program</h2>
-            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-              enim sagittis turpis in magna. <br> Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <h2 class="card-title text-[28px] font-bold">Professional Program</h2>
+            <p>Our program equips graduates with a skillset that allows them to elevate their performance in hockey-related roles and implement innovative</p>
             <div class="card-actions justify-start">
               <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
             </div>
@@ -135,10 +171,10 @@
         </div>
       </section>
       <!-- Products section -->
-      <section>
-        <div class="text-center items-center pt-20 sm:pb-5">
+      <section class="space-x-7">
+        <div class="text-center items-center lg:pt-20 pt-40 sm:pb-5">
           <h1 class="text-[36px] font-bold">Our New Products</h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          <p>The New & Improved Hockey Sauce Balls are perfect for all stick handling, games, training & tricks</p>
         </div>
         <div class="lg:grid gap-6 grid-cols-2 lg:p-32">
           <div class=" card-side  shadow-xl bg-white border border-[#1313181A] p-6 rounded-md mb-5 lg:flex items-center">
@@ -154,7 +190,7 @@
               </div>
               <div class="space-y-4">
                 <h1 class="text-[20px]">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <p>Shop high-quality unique World Cup Flags T-Shirts</p>
               </div>
               <div class="flex justify-between">
                 <div><h1 class="text-red-500 text-[18px]">Price - $22.00</h1></div>
@@ -178,7 +214,7 @@
               </div>
               <div class="space-y-4">
                 <h1 class="text-[20px]">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <p>Worldwide leading supplier of custom digitally printed Football Flags</p>
               </div>
               <div class="flex justify-between">
                 <h1 class="text-red-500 text-[18px] font-bold">Price - $22.00</h1>
@@ -201,8 +237,8 @@
                 <p>200</p>
               </div>
               <div class="space-y-4">
-                <h1 class="text-[20px]">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <h1 class="text-[20px]">Cap For Hockeys</h1>
+                <p>Explore the massive collection of hockey hats and caps</p>
               </div>
               <div class="lg:flex justify-between">
                 <h1 class="text-red-500 text-[18px] font-bold">Price - $22.00</h1>
@@ -226,7 +262,7 @@
               </div>
               <div class="space-y-4">
                 <h1 class="text-[20px]">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <p>Shop high-quality unique World Cup Flags T-Shirts</p>
               </div>
               <div class="flex justify-between">
                 <h1 class="text-red-500 text-[18px] font-bold">Price - $22.00</h1>
@@ -249,8 +285,8 @@
                 <p>200</p>
               </div>
               <div class="space-y-4">
-                <h1 class="text-[20px]">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <h1 class="text-[20px]">Hockey Helmets</h1>
+                <p>The four dominant ice hockey brands</p>
               </div>
               <div class="flex justify-between">
                 <h1 class="text-red-500 text-[18px] font-bold">Price - $22.00</h1>
@@ -274,7 +310,7 @@
               </div>
               <div class="space-y-4">
                 <h1 class="text-[20px] font-bold">World Cup Flags Football</h1>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                <p>Worldwide leading supplier of custom digitally printed Football Flags</p>
               </div>
               <div class="flex justify-between">
                 <h1 class="text-red-500 text-[18px] font-bold">Price - $22.00</h1>
@@ -290,7 +326,7 @@
       <section>
         <div class="justify-center items-center text-center">
         <h1 class="text-[36px] font-bold">Get In Touch</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <p>get in touch with something meaning, definition, what is get in touch with something: to realize and understand something such</p>
         </div>
       </section>
       <section class="lg:grid grid-cols-2 gap-10 p-10">
@@ -338,7 +374,7 @@
             <div class="col-span-2 space-y-2">
               <div>
                 <p class="font-bold text-[20px]">Message</p>
-              <textarea class="w-full h-[200px] bg-[#13131808] rounded-md" name="" id="" rows=""></textarea>
+              <textarea class="w-full h-[200px] bg-[#13131808] rounded-md" name="" id="" rows="" placeholder="Write your message"></textarea>
               </div>
               <button class="btn btn-error w-full">Send Message</button>
             </div>
@@ -359,36 +395,42 @@
     </main>
     <footer>
       <footer class="footer p-10 bg-[#131318]  text-base-content">
-        <div class="flex ">
+        <div class="flex mx-auto">
           <aside class="space-y-2 space-y-5">
             <h1 class="footer-title text-[#FFFFFF] font-bold text-[36px]">Get In Touch</h1>
-            <p class="break-normal text-[#f3eeee99]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat <br></dolor> Purus urna in sit nullam proin.</p>
+            <p class="break-normal text-[#f3eeee99]">get in touch with something meaning, <br> definition, what is get in touch with<br> to realize and understand something</p>
             <div class="flex gap-2">
               <img src="Images/Frame (4).png" alt="">
               <h1 class="text-[#f3eeee99]">hockeys@support.com</h1>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-2 ml-5 lg:ml-0">
               <img src="Images/Frame (5).png" alt="">
               <h1 class="text-[#f3eeee99]">(+62) 123-321-543</h1>
             </div>
           </aside>
         </div> 
-        <nav class="">
-          <header class="footer-title text-[#FFFFFF] font-bold text-[18]">Company</header> 
-          <a class="link link-hover text-[#f3eeee99]">About us</a>
-          <a class="link link-hover text-[#f3eeee99]">Leadership</a>
-          <a class="link link-hover text-[#f3eeee99]">Careers</a>
-          <a class="link link-hover text-[#f3eeee99]">News & Article</a>
-          <a class="link link-hover text-[#f3eeee99]">Legal Notice</a>
+        <nav class="lg:grid lg:gap-[200px] grid-cols-2 gap-20 mx-auto"> 
+          <div class="grid gap-2">
+            <header class="footer-title text-[#FFFFFF] font-bold text-[18]">Company</header>
+            <a class="link link-hover text-[#f3eeee99]">About us</a>
+            <a class="link link-hover text-[#f3eeee99]">Leadership</a>
+            <a class="link link-hover text-[#f3eeee99]">Careers</a>
+            <a class="link link-hover text-[#f3eeee99]">News & Article</a>
+            <a class="link link-hover text-[#f3eeee99]">Legal Notice</a>
+          </div>
+          <div class="grid gap-2">
+            <header class="footer-title text-[#FFFFFF] font-bold text-[18]">Support</header>
+            <a class="link link-hover text-[#f3eeee99]">Help Center</a>
+           <a class="link link-hover text-[#f3eeee99]">FAQ</a>
+           <a class="link link-hover text-[#f3eeee99]">Ticket Support</a>
+           <a class="link link-hover text-[#f3eeee99]">Contact Us</a>
+          </div>
         </nav> 
         <nav>
-          <header class="footer-title text-[#FFFFFF] font-bold text-[18]">Support</header> 
-          <a class="link link-hover text-[#f3eeee99]">Help Center</a>
-          <a class="link link-hover text-[#f3eeee99]">FAQ</a>
-          <a class="link link-hover text-[#f3eeee99]">Ticket Support</a>
-          <a class="link link-hover text-[#f3eeee99]">Contact Us</a>
+           
+          
         </nav> 
-        <nav>
+        <nav class="mx-auto">
           <header class="footer-title text-[#FFFFFF] font-bold text-[18]">Services</header> 
           <a class="link link-hover text-[#f3eeee99]">Academy</a>
           <a class="link link-hover text-[#f3eeee99]">Private Lesson</a>
